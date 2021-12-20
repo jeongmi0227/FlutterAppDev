@@ -20,8 +20,8 @@ void main() {
         // Center widget will align the items
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3gJ3z0avzNGkcjGitKnu-07YhUh1Hcd29OQ&usqp=CAU'),
+            // import image from the local
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
